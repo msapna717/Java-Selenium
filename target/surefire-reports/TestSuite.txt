@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 1.199 s <<< FAILURE! - in TestSuite
+setup(mobileAutomation.mobileAutomation.AndroidAutomation)  Time elapsed: 1.065 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SBMAC0261.local', ip: 'fe80:0:0:0:141d:86aa:5b53:11b6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_91'
+Driver info: driver.version: RemoteWebDriver
+	at mobileAutomation.mobileAutomation.AndroidAutomation.setup(AndroidAutomation.java:42)
+Caused by: java.net.ConnectException: Failed to connect to /0.0.0.0:4723
+	at mobileAutomation.mobileAutomation.AndroidAutomation.setup(AndroidAutomation.java:42)
+Caused by: java.net.ConnectException: Connection refused
+	at mobileAutomation.mobileAutomation.AndroidAutomation.setup(AndroidAutomation.java:42)
+

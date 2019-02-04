@@ -1,0 +1,2 @@
+System.setProperty("webdriver.chrome.driver", "/Users/sapnamishra/Documents/WebDriver/chromedriver");
+		driver=new ChromeDriver();
