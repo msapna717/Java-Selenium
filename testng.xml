@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="mobileAutomation.mobileAutomation.AndroidAutomation"/>
+      <class name="tce.TCEAndroidAPP"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

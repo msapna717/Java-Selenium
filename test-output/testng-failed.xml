@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mobileAutomation.mobileAutomation.AndroidAutomation">
+      <class name="tce.TCEAndroidAPP">
         <methods>
+          <include name="LoginInvalid"/>
+          <include name="tearDown"/>
           <include name="setup"/>
-          <include name="mobile"/>
-          <include name="registraion"/>
         </methods>
-      </class> <!-- mobileAutomation.mobileAutomation.AndroidAutomation -->
+      </class> <!-- tce.TCEAndroidAPP -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
